@@ -1,0 +1,25 @@
+.project.task_todo {
+  background: #34ace0 !important;
+  height: 8px !important;
+}
+.task {
+  height: 12px !important;
+  border-radius: 8px !important;
+}
+.task_todo {
+}
+.task_done {
+  background: #2ecc71 !important;
+  border: 1px solid #2ecc71 !important;
+}
+.task_late {
+  background: #e17055 !important;
+  border: 1px solid #e17055 !important;
+}
+#today_line {
+  border-left: 2px solid #34ace0 !important;
+}
+.task.parent.marker.starting {
+}
+.task.parent.marker.ending {
+}

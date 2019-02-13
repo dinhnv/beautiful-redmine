@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Beautiful Redmine",
+  "version": "0.1.0",
+  "description": "Make redmine greate again",
+  "permissions": [
+      "activeTab"
+  ],
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["*://redmine.airlink.co.jp/*"],
+    "run_at": "document_start"
+  }]
+
+}
